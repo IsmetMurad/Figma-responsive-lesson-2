@@ -69,8 +69,10 @@ header{
     
 }
 .lists{
-
+    display: flex;
+    gap: 32px;
     margin-top: 32px;
+    flex-direction: column;
 }
 .list-title{
     margin-top: 48px;
@@ -81,9 +83,20 @@ header{
 .true{
     margin-right: 20px;
 }
-.bar{
-    float: right;
-}
 section{
     margin: 0 120px;
+    display: flex;
+    flex-direction: row;
+}
+.img{
+    margin-top: 370px;
+
+}
+@media (min-width: 320px) and (max-width: 480px) {
+    section{
+        display: flex;
+        flex-direction: column;
+    }
+
+    
 }
