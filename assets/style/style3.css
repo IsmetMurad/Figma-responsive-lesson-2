@@ -53,12 +53,13 @@ header{
     font-weight: 600;
 }
 .btn1{
-    background-color: #7c5cfc;
-    color: white;
-}
-.btn2{
     background-color: #f3f5f7;
     color: #90A3BF;
+}
+.btn2{
+
+    background-color: #7c5cfc;
+    color: white;
 }
 .buttons{
     margin-top: 64px;

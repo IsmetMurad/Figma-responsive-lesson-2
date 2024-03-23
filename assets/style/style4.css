@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+body{
+    font-family: "Poppins", sans-serif;
+    background-color: black;
+    margin: 120px 0 0 120px;
+}
+.btn-get{
+    border: none;
+    border-radius: 30px;
+    background-color: #7c5cfc;
+    color: #fff;
+    width: 187px;
+    height: 57px;
+}
+.title{
+    color: #7c5cfc;
+    font-weight: 600;
+    font-size: 30px;
+    display: inline;
+
+}
+.main-title{
+    color: #fff;
+    font-weight: 700;
+    font-size: 40px;
+    display: inline;
+    margin-top: 28px;
+}
+.second-title{
+    font-weight: 500;
+    line-height: 30px;
+    font-size: 20px;
+    color: #a7a1a1;
+    display: inline;
+}
+img{
+    display: flex;
+    float: right;
+
+}
+.main{
+    display: inline-flex ;
+    flex-direction: column;
+}
+@media only screen and (max-width: 600px) {
+    .btn-get{
+        width: 318px;
+    }
+    img{
+        width: 599px;
+    }
+}
+/* resposivə baxanda saytın inspect-i 599px ə qoyun */
